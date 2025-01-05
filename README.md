@@ -90,9 +90,9 @@
 
 ###  Tetris Animation:
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/haveyoumetmiz/haveyoumetmiz/blob/output/tetris-block-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/haveyoumetmiz/haveyoumetmiz/blob/output/tetris-block-light.svg" />
-  <img src="https://raw.githubusercontent.com/haveyoumetmiz/haveyoumetmiz/output/tetris-block.svg" alt="Tetris Block Animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/haveyoumetmiz/haveyoumetmiz/blob/output/tetris-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/haveyoumetmiz/haveyoumetmiz/blob/output/tetris-light.svg" />
+  <img src="https://raw.githubusercontent.com/haveyoumetmiz/haveyoumetmiz/output/tetris.svg" alt="Tetris Block Animation" />
 </picture>
 
 ---
