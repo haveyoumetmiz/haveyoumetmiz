@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #282828; }
+        canvas { border: 2px solid #fff; }
+    </style>
+</head>
+<body>
+    <canvas id="tetris" width="320" height="640"></canvas>
+
+    <script>
+        // Simple Tetris Game Implementation
+        const canvas = document.getElementById("tetris");
+        const ctx = canvas.getContext("2d");
+        
+        const COLS = 10, ROWS = 20, BLOCK_SIZE = 30;
+        let board = Array.from({ length: ROWS }, () => Array(COLS).fill(0));
+
+        // Define Tetrimino shapes
+        const TETRIMINOS = [
+            [[1, 1, 1], [0, 1, 0]],  // T
+            [[1, 1], [1, 1]],        // O
+            [[1, 0, 0], [1, 1, 1]],  // L
+            [[0, 0, 1], [1, 1, 1]],  // J
+            [[1, 1, 0], [0, 1, 1]],  // S
+            [[0, 1, 1], [1, 1, 0]],  // Z
+            [[1, 1, 1, 1]],          // I
+        ];
+        
+        // Game variables
+        let currentTetrimino, currentPos;
+        
+        // Function to draw the board
+        function drawBoard() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            board.forEach((row, y) => {
+                row.forEach((cell, x) => {
+                    if (cell) {
+                        ctx.fillStyle = "white";
+                        ctx.fillRect(x * BLOCK_SIZE, y * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
+                        ctx.strokeStyle = "black";
+                        ctx.strokeRect(x * BLOCK_SIZE, y * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
+                    }
+                });
+            });
+        }
+        
+        // Function to spawn a new Tetrimino
+        function spawnTetrimino() {
+            const randIdx = Math.floor(Math.random() * TETRIMINOS.length);
+            currentTetrimino = TETRIMINOS[randIdx];
+            currentPos = { x: Math.floor(COLS / 2) - 1, y: 0 };
+        }
+
+        // Function to move the Tetrimino
+        function moveTetrimino(dx, dy) {
+            currentPos.x += dx;
+            currentPos.y += dy;
+        }
+
+        // Function to draw the current Tetrimino
+        function drawTetrimino() {
+            currentTetrimino.forEach((row, y) => {
+                row.forEach((cell, x) => {
+                    if (cell) {
+                        ctx.fillStyle = "blue";
+                        ctx.fillRect((currentPos.x + x) * BLOCK_SIZE, (currentPos.y + y) * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
+                        ctx.strokeStyle = "black";
+                        ctx.strokeRect((currentPos.x + x) * BLOCK_SIZE, (currentPos.y + y) * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
+                    }
+                });
+            });
+        }
+
+        // Main game loop
+        function gameLoop() {
+            drawBoard();
+            drawTetrimino();
+            moveTetrimino(0, 1); // Move the Tetrimino down
+            requestAnimationFrame(gameLoop);
+        }
+
+        // Start the game
+        spawnTetrimino();
+        gameLoop();
+    </script>
+</body>
+</html>
