@@ -1,7 +1,5 @@
 <img src="banner_github.png" alt="GitHub Banner" width="100%" />
 
-![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge&left_text=Visitors)
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&pause=1000&multiline=true&width=435&lines=Hi+there!;I+am+Mizhab+K+Ansar+)](https://git.io/typing-svg)
 
 
