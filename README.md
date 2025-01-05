@@ -1,52 +1,83 @@
 ## Hi there 👋
 
-I'm **Mizhab Ansar** — a passionate **Computer Science Engineering Student** with a love for **game development**, **cybersecurity**, and building innovative **tech solutions**. 🚀
+I'm **Mizhab K Ansar** — a **Computer Science Engineering Student** at **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
 
 ---
 
 ### 🛠️ **What I'm Currently Working On:**
-- 👨‍💻 **Unity Developer Intern** at **PlatypusBox** — building immersive experiences with Unity.
-- 📱 Developing **'SelfieQR'** — an app that takes selfies, generates QR codes, and retrieves them seamlessly.
-- 💡 Creating **MediBridge**, a social media app bridging communication between **doctors and patients**.
-- 🎮 Building a **Tetris game** while mastering the mechanics behind it.
+- 📚 **Student Book Exchange Hub**: A web platform where students can buy and sell books, facilitating the exchange of educational materials between senior and junior students.
+- 🎮 **Innovative Car Racing Game**: A game that uses **OpenCV** to detect real-world objects (e.g., circular objects like plates) and translates them into in-game controls, allowing players to control the car by moving objects in real life.
+- 📱 **SelfieQR App**: Developed in collaboration with PlatypusBox, this app allows users to take selfies and generate QR codes linked to them. Scanning the QR code brings up the specific selfie.
+- 🎮 **Tetris Game (Mobile App)**: A mobile game currently in development with collaboration with PlatypusBox, featuring a modern take on the classic Tetris puzzle game.
+- 🌐 Contributing to **Highrise 2D Worlds**, building visually appealing Unity environments using **Lua scripting**.
+- 🤖 Developed **Highrise User Interaction Bots** in Python for automated customer engagement.
+
+---
+
+### Experience:
+- **Unity Developer Intern at PlatypusBox** (Nov 2024 - Present): Remote internship focusing on Unity development, cloud storage integration, and collaborative game development.
+- **Technology Lead at IEDC, CE Poonjar** (Oct 2023 - Present): Leading technical initiatives, mentoring students, and guiding projects that promote innovation and entrepreneurship at the college.
 
 ---
 
 ### 📚 **What I'm Learning:**
-- 🔐 Cybersecurity fundamentals and ethical hacking techniques.
-- 💻 Advanced **Data Structures and Algorithms**.
-- ☁️ Working with **Google Cloud Storage Bucket** and **Firebase**.
-- 🎮 Enhancing my skills in **Unity** and **OpenCV** for game development.
+- 🎮 Mastering **Unity** and **OpenCV** for game development.
+- ☁️ Working with **Google Cloud Storage Bucket** and **Google Drive API**.
+- 💻 Exploring **Django** and **Python** for web development.
+- 🛠️ Enhancing my **programming and problem-solving skills**.
+- 🎓 Expanding knowledge in **full-stack development**, **graphic design**, and **server-side technologies**.
+- 🔐 Growing interest in **Cybersecurity** and ethical hacking practices.
 
 ---
 
 ### 💬 **Ask Me About:**
-- Game Development using **Unity**
-- Cybersecurity & Ethical Hacking
-- Backend Development & APIs
-- Realistic Sports Game Development
+- Unity App Development
+- Game Design and Development
+- Web Development with Django
+- Cybersecurity (Beginner, but curious!)
+- Leadership and Team Management
+- **Stock Trading**: I’ve recently started exploring the world of stock trading with **Upstox**, learning about stock exchanges and trading strategies.
+
+---
+
+### Skills & Technologies:
+- **Programming Languages**: Python, C, C#, Java, JavaScript
+- **Game Development**: Unity, OpenCV
+- **Web Development**: HTML, CSS, Django, Python
+- **Cloud Technologies**: Google Cloud Storage, Google Drive API
+- **Version Control**: Git
+- **Software Development**: Full-stack, Backend Systems
+
+---
+
+I am constantly learning new technologies and tools, working with **Google Cloud Storage Buckets** and **Google Drive API** to integrate cloud solutions into my projects. I am also actively learning **Django** and **Python** for web development.
 
 ---
 
 ### 🤝 **Let's Collaborate:**
-- Looking to collaborate on **game development projects**, innovative **web apps**, or exciting **open-source contributions**.
+- Open to collaborating on **game development projects**, **web apps**, and **innovative tech solutions**.
 
 ---
 
 ### 📫 **Connect with Me:**
-- 📧 **Email:** [mizh48.ansar@gmail.com](mailto:mizh48.ansar@gmail.com)
-- 💼 **LinkedIn:** [linkedin.com/in/mizhabansar](https://www.linkedin.com/in/mizhabansar/)
-- 🐙 **GitHub:** [github.com/haveyoumetmiz](https://github.com/haveyoumetmiz)
-- 🌐 **Replit:** [replit.com/@MizhabAnsar](https://replit.com/@MizhabAnsar)
-- 📱 **WhatsApp:** [wa.link/pn9q89](https://wa.link/pn9q89)
-- 📸 **Instagram:** [instagram.com/haveyoumetmiz](https://www.instagram.com/haveyoumetmiz/)
+- 📍 **Address**: Kallarackal House, Deshabhimani Road, Kaloor, Ernakulam, India
+- 📱 **Mobile**: +91 7736016040
+- 📧 **Email**: [mizh48.ansar@gmail.com](mailto:mizh48.ansar@gmail.com)
+- 💼 **LinkedIn**: [linkedin.com/in/mizhabansar](https://www.linkedin.com/in/mizhabansar/)
+- 🐙 **GitHub**: [github.com/haveyoumetmiz](https://github.com/haveyoumetmiz)
+- 🌐 **Replit**: [replit.com/@MizhabAnsar](https://replit.com/@MizhabAnsar)
+- 📱 **WhatsApp**: [wa.link/pn9q89](https://wa.link/pn9q89)
+- 📸 **Instagram**: [instagram.com/haveyoumetmiz](https://www.instagram.com/haveyoumetmiz/)
 
 ---
 
 ### ⚡ **Fun Facts:**
+- 🎓 **IEDC Tech Lead** at **College of Engineering Poonjar**.
 - 🎮 Avid *Valorant* and *eFootball* player.
-- ❤️ Love classic GBA games like *Pokémon* and *Dragon Ball Z*.
-- 🛠️ Once attempted creating a **ROM hack**.
+- ❤️ Love hosting events, taking leadership roles, and mentoring peers.
+- 🛠️ Volunteering for an environmental cause.
+- 🎤 Enthusiastic about **public speaking** and hosting events.
+- 📈 Recently started exploring **stock trading** and learning about market strategies.
 
 ---
 
