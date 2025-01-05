@@ -14,78 +14,129 @@
     <canvas id="tetris" width="320" height="640"></canvas>
 
     <script>
-        // Simple Tetris Game Implementation
         const canvas = document.getElementById("tetris");
         const ctx = canvas.getContext("2d");
-        
-        const COLS = 10, ROWS = 20, BLOCK_SIZE = 30;
-        let board = Array.from({ length: ROWS }, () => Array(COLS).fill(0));
 
-        // Define Tetrimino shapes
-        const TETRIMINOS = [
-            [[1, 1, 1], [0, 1, 0]],  // T
-            [[1, 1], [1, 1]],        // O
-            [[1, 0, 0], [1, 1, 1]],  // L
-            [[0, 0, 1], [1, 1, 1]],  // J
-            [[1, 1, 0], [0, 1, 1]],  // S
-            [[0, 1, 1], [1, 1, 0]],  // Z
-            [[1, 1, 1, 1]],          // I
-        ];
-        
-        // Game variables
+        const COLS = 10, ROWS = 20, BLOCK_SIZE = 30;
+        const COLORS = ['#ff6347', '#ff4500', '#32cd32', '#1e90ff', '#ff1493', '#ffd700', '#8a2be2'];
+
+        let board = Array.from({ length: ROWS }, () => Array(COLS).fill(0));
         let currentTetrimino, currentPos;
-        
-        // Function to draw the board
+
+        // Tetrimino shapes
+        const TETRIMINOS = [
+            { shape: [[1, 1, 1], [0, 1, 0]], color: COLORS[0] },  // T
+            { shape: [[1, 1], [1, 1]], color: COLORS[1] },        // O
+            { shape: [[1, 0, 0], [1, 1, 1]], color: COLORS[2] },  // L
+            { shape: [[0, 0, 1], [1, 1, 1]], color: COLORS[3] },  // J
+            { shape: [[1, 1, 0], [0, 1, 1]], color: COLORS[4] },  // S
+            { shape: [[0, 1, 1], [1, 1, 0]], color: COLORS[5] },  // Z
+            { shape: [[1, 1, 1, 1]], color: COLORS[6] },          // I
+        ];
+
+        // Functions
         function drawBoard() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             board.forEach((row, y) => {
                 row.forEach((cell, x) => {
                     if (cell) {
-                        ctx.fillStyle = "white";
+                        ctx.fillStyle = cell;
                         ctx.fillRect(x * BLOCK_SIZE, y * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
-                        ctx.strokeStyle = "black";
+                        ctx.strokeStyle = "#282828";
                         ctx.strokeRect(x * BLOCK_SIZE, y * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
                     }
                 });
             });
         }
-        
-        // Function to spawn a new Tetrimino
+
         function spawnTetrimino() {
             const randIdx = Math.floor(Math.random() * TETRIMINOS.length);
             currentTetrimino = TETRIMINOS[randIdx];
             currentPos = { x: Math.floor(COLS / 2) - 1, y: 0 };
         }
 
-        // Function to move the Tetrimino
-        function moveTetrimino(dx, dy) {
-            currentPos.x += dx;
-            currentPos.y += dy;
-        }
-
-        // Function to draw the current Tetrimino
         function drawTetrimino() {
-            currentTetrimino.forEach((row, y) => {
+            currentTetrimino.shape.forEach((row, y) => {
                 row.forEach((cell, x) => {
                     if (cell) {
-                        ctx.fillStyle = "blue";
+                        ctx.fillStyle = currentTetrimino.color;
                         ctx.fillRect((currentPos.x + x) * BLOCK_SIZE, (currentPos.y + y) * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
-                        ctx.strokeStyle = "black";
+                        ctx.strokeStyle = "#282828";
                         ctx.strokeRect((currentPos.x + x) * BLOCK_SIZE, (currentPos.y + y) * BLOCK_SIZE, BLOCK_SIZE, BLOCK_SIZE);
                     }
                 });
             });
         }
 
-        // Main game loop
+        function isColliding() {
+            for (let y = 0; y < currentTetrimino.shape.length; y++) {
+                for (let x = 0; x < currentTetrimino.shape[y].length; x++) {
+                    if (currentTetrimino.shape[y][x] && (board[currentPos.y + y] && board[currentPos.y + y][currentPos.x + x]) !== 0) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
+        function rotateTetrimino() {
+            const rotated = currentTetrimino.shape[0].map((_, index) => currentTetrimino.shape.map(row => row[index])).reverse();
+            currentTetrimino.shape = rotated;
+            if (isColliding()) {
+                const rotatedBack = currentTetrimino.shape[0].map((_, index) => currentTetrimino.shape.map(row => row[index])).reverse();
+                currentTetrimino.shape = rotatedBack;
+            }
+        }
+
+        function moveTetrimino(dx, dy) {
+            currentPos.x += dx;
+            currentPos.y += dy;
+            if (isColliding()) {
+                currentPos.x -= dx;
+                currentPos.y -= dy;
+                if (dy !== 0) {
+                    placeTetrimino();
+                    checkLines();
+                    spawnTetrimino();
+                }
+            }
+        }
+
+        function placeTetrimino() {
+            currentTetrimino.shape.forEach((row, y) => {
+                row.forEach((cell, x) => {
+                    if (cell) {
+                        board[currentPos.y + y][currentPos.x + x] = currentTetrimino.color;
+                    }
+                });
+            });
+        }
+
+        function checkLines() {
+            for (let row = ROWS - 1; row >= 0; row--) {
+                if (board[row].every(cell => cell !== 0)) {
+                    board.splice(row, 1);
+                    board.unshift(Array(COLS).fill(0));
+                }
+            }
+        }
+
         function gameLoop() {
             drawBoard();
             drawTetrimino();
-            moveTetrimino(0, 1); // Move the Tetrimino down
+            moveTetrimino(0, 1); // Move down
             requestAnimationFrame(gameLoop);
         }
 
-        // Start the game
+        // Event listeners
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') moveTetrimino(-1, 0);
+            if (e.key === 'ArrowRight') moveTetrimino(1, 0);
+            if (e.key === 'ArrowDown') moveTetrimino(0, 1);
+            if (e.key === 'ArrowUp') rotateTetrimino();
+        });
+
+        // Initialize the game
         spawnTetrimino();
         gameLoop();
     </script>
