@@ -9,40 +9,6 @@
 
 <p align="left">Currently Learning Unity, OpenCV, and exploring Cybersecurity.</p>
 
-###
-
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="30" alt="tensorflow logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="pandas logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="30" alt="amazonwebservices logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="30" alt="jupyter logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="30" alt="flask logo" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo" />
-</div>
-
-###
-
 ### 🛠️ **What I'm Currently Working On:**
 - 📚 **Student Book Exchange Hub**: A web platform where students can buy and sell books, facilitating the exchange of educational materials between senior and junior students.
 - 🎮 **Innovative Car Racing Game**: A game that uses **OpenCV** to detect real-world objects (e.g., circular objects like plates) and translates them into in-game controls, allowing players to control the car by moving objects in real life.
@@ -122,11 +88,11 @@
 
 ---
 
-### 🐍 GitHub Snake Animation:
+### 🐍 Tetris Animation:
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Alan-Saju/Alan-Saju/blob/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Alan-Saju/Alan-Saju/blob/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Alan-Saju/Alan-Saju/output/snake.svg" alt="Snake animation" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/YourUsername/YourRepo/blob/output/tetris-block-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/YourUsername/YourRepo/blob/output/tetris-block-light.svg" />
+  <img src="https://raw.githubusercontent.com/YourUsername/YourRepo/output/tetris-block.svg" alt="Tetris Block Animation" />
 </picture>
 
 ---
