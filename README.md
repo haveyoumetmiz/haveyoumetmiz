@@ -1,3 +1,5 @@
+<img src="banner_github.png" alt="GitHub Banner" width="100%" />
+
 ## Hi there 👋
 
 I'm **Mizhab K Ansar** — a **Computer Science Engineering Student** at **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
@@ -71,3 +73,8 @@ I'm **Mizhab K Ansar** — a **Computer Science Engineering Student** at **Colle
 
 _This README is a snapshot of my journey — let's build something amazing together! 🚀_
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haveyoumetmiz/haveyoumetmiz/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haveyoumetmiz/haveyoumetmiz/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/haveyoumetmiz/haveyoumetmiz/output/github-snake.svg" />
+</picture>
