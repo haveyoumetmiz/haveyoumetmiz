@@ -1,8 +1,47 @@
-## Hi there 👋
+<div align="left">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=haveyoumetmiz.haveyoumetmiz&left_color=aquamarine&right_color=aquamarine" />
+</div>
 
-I'm **Mizhab K Ansar** — a **Computer Science Engineering Student** at **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
+### 
+<h2 align="left">Hi 👋! My name is Mizhab K Ansar and I'm from Kottayam.</h2>
 
----
+###
+
+<p align="left">Currently Learning Unity, OpenCV, and exploring Cybersecurity.</p>
+
+###
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" height="30" alt="tensorflow logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" height="30" alt="pandas logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="30" alt="mongodb logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="30" alt="c logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="30" alt="amazonwebservices logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" height="30" alt="jupyter logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="30" alt="pytorch logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="30" alt="flask logo" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo" />
+</div>
+
+###
 
 ### 🛠️ **What I'm Currently Working On:**
 - 📚 **Student Book Exchange Hub**: A web platform where students can buy and sell books, facilitating the exchange of educational materials between senior and junior students.
@@ -50,10 +89,6 @@ I'm **Mizhab K Ansar** — a **Computer Science Engineering Student** at **Colle
 
 ---
 
-I am constantly learning new technologies and tools, working with **Google Cloud Storage Buckets** and **Google Drive API** to integrate cloud solutions into my projects. I am also actively learning **Django** and **Python** for web development.
-
----
-
 ### 🤝 **Let's Collaborate:**
 - Open to collaborating on **game development projects**, **web apps**, and **innovative tech solutions**.
 
@@ -84,6 +119,15 @@ I am constantly learning new technologies and tools, working with **Google Cloud
 **"Building, Learning, and Growing — One Line of Code at a Time."** 💻✨
 
 ![Profile Views](https://komarev.com/ghpvc/?username=haveyoumetmiz&color=blue&style=flat-square)
+
+---
+
+### 🐍 GitHub Snake Animation:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Alan-Saju/Alan-Saju/blob/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Alan-Saju/Alan-Saju/blob/output/github-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Alan-Saju/Alan-Saju/output/snake.svg" alt="Snake animation" />
+</picture>
 
 ---
 
