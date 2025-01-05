@@ -1,8 +1,13 @@
 <img src="banner_github.png" alt="GitHub Banner" width="100%" />
 
-## Hi there 👋
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=jwenjian.visitor-badge&left_text=Visitors)
 
-I'm **Mizhab K Ansar** — a **Computer Science Engineering Student** at **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&pause=1000&multiline=true&width=435&lines=Hi+there!;I+am+Mizhab+K+Ansar+)](https://git.io/typing-svg)
+
+
+---
+
+I'm a **Computer Science Engineering Student** at **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
 
 ---
 
@@ -68,8 +73,6 @@ I'm **Mizhab K Ansar** — a **Computer Science Engineering Student** at **Colle
 
   ## 💰 You can help me by Donating
   [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/haveyoumetmiz) 
-
-
 
 _This README is a snapshot of my journey — let's build something amazing together! 🚀_
 
