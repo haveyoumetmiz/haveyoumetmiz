@@ -4,6 +4,7 @@
 
 
 ---
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 
 I'm a **Computer Science Engineering Student** at **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
 
