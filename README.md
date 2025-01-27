@@ -43,7 +43,7 @@ I'm a **Computer Science Engineering Student** at **College of Engineering Poonj
 
 | Project Name                                    | Description                                                                             | Technologies           | Repo Link                      |
 |------------------------------------------------|-----------------------------------------------------------------------------------------|------------------------|---------------------------------|
-| **Innovative Control System For Racing Game Using Real Life Object Detection**                   | Innovative car control system using OpenCV with real-life objects                      | Python, OpenCV         | [GitHub]((https://github.com/haveyoumetmiz/InnovativeControlSystemForRacingGameUsingRealLifeObjectDetection.git) |
+| **Innovative Control System For Racing Game Using Real Life Object Detection**                   | Innovative car control system using OpenCV with real-life objects                      | Python, OpenCV         | [GitHub](https://github.com/haveyoumetmiz/InnovativeControlSystemForRacingGameUsingRealLifeObjectDetection.git) |
 | **Student Book Exchange Hub**                  | Web app for college students to exchange books                                       | Django, HTML/CSS       | [GitHub](https://github.com/haveyoumetmiz/StudentBookExchangeHub.git) |
 
 ---
