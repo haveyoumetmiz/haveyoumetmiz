@@ -39,6 +39,16 @@ I'm a **Computer Science Engineering Student** at **College of Engineering Poonj
 
 ---
 
+## 🌟 Featured Projects
+
+| Project Name                                    | Description                                                                             | Technologies           | Repo Link                      |
+|------------------------------------------------|-----------------------------------------------------------------------------------------|------------------------|---------------------------------|
+| **Innovative Control System For Racing Game Using Real Life Object Detection**                   | Innovative car control system using OpenCV with real-life objects                      | Python, OpenCV         | [GitHub]((https://github.com/haveyoumetmiz/InnovativeControlSystemForRacingGameUsingRealLifeObjectDetection.git) |
+| **Student Book Exchange Hub**                  | Web app for college students to exchange books                                       | Django, HTML/CSS       | [GitHub](https://github.com/haveyoumetmiz/StudentBookExchangeHub.git) |
+
+---
+
+
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/haveyoumetmiz/) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mizhabansar/) 
