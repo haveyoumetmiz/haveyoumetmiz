@@ -2,8 +2,10 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&pause=1000&multiline=true&width=435&lines=Hi+there!;I+am+Mizhab+K+Ansar+)](https://git.io/typing-svg)
 
-
----
+<p align="center">
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" height="30px">
+  <strong>Welcome to my GitHub profile! Let's innovate and build together. 🚀</strong>
+</p>
 
 I'm a **Computer Science Engineering Student** at **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
 
