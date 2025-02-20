@@ -22,7 +22,7 @@ I'm a **Computer Science Engineering Student** at **College of Engineering Poonj
 ---
 
 ### Experience:
-- **Unity Developer Intern at PlatypusBox** (Nov 2024 - Present): Remote internship focusing on Unity development, cloud storage integration, and collaborative game development.
+- **Unity Developer Intern at PlatypusBox** (Nov 2024 - Feb 2025): Remote internship focusing on Unity development, cloud storage integration, and collaborative game development.
 - **Technology Lead at IEDC, CE Poonjar** (Oct 2023 - Present): Leading technical initiatives, mentoring students, and guiding projects that promote innovation and entrepreneurship at the college.
 
 ---
