@@ -41,6 +41,12 @@ I'm a **Computer Science Engineering Student** at **College of Engineering Poonj
 
 ---
 
+## Contributions
+
+- [Project Name](https://github.com/owner/repo) - Contributed in [feature branch]
+
+---
+
 ## 🌟 Featured Projects
 
 | Project Name                                    | Description                                                                             | Technologies           | Repo Link                      |
