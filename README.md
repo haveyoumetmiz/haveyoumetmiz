@@ -7,17 +7,12 @@
   <strong>Welcome to my GitHub profile! Let's innovate and build together. 🚀</strong>
 </p>
 
-I'm a **Computer Science Engineering Graduate ** from **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
+I'm a **Computer Science Engineering Graduate** from **College of Engineering Poonjar, Kottayam**, with a passion for **game development**, **web development**, and **innovative tech solutions**. 🚀
 
 ---
 
 ### 🛠️ **What I'm Currently Working On:**
-- 📚**Student Book Exchange Hub**: A web platform where students can buy and sell books, facilitating the exchange of educational materials between senior and junior students.
-- 🎮**Innovative Car Racing Game**: A game that uses **OpenCV** to detect real-world objects (e.g., circular objects like plates) and translates them into in-game controls, allowing players to control the car by moving objects in real life.
-- 📱**SelfieQR App**: Developed in collaboration with PlatypusBox, this app allows users to take selfies and generate QR codes linked to them. Scanning the QR code brings up the specific selfie.
-- 🎮**Tetris Game (Mobile App)**: A mobile game currently in development with collaboration with PlatypusBox, featuring a modern take on the classic Tetris puzzle game.
-- 🌐 Contributing to **Highrise 2D Worlds**, building visually appealing Unity environments using **Lua scripting**.
-- 🤖 Developed **Highrise User Interaction Bots** in Python for automated customer engagement.
+- Currently working on integrating ABHA (Ayushman Bharat Health Account) into the PRX app by GHO
 
 ---
 
@@ -35,25 +30,10 @@ I'm a **Computer Science Engineering Graduate ** from **College of Engineering P
 
 ### 📚 **What I'm Learning:**
 - 🎮 Mastering **Unity** and **OpenCV**.
-- ☁️ Working with **Google Cloud Storage Bucket** and **Google Drive API**.
 - 💻 Exploring **Django** and **Python** for web development.
 - 🛠️ Enhancing my **programming and problem-solving skills**.
-- 🎓 Expanding knowledge in **full-stack development**, **graphic design**, and **server-side technologies**.
+- 🎓 Expanding knowledge in **full-stack development**, and **server-side technologies**.
 
----
-
-## Contributions
-
-- [Project Name](https://github.com/owner/repo) - Contributed in [feature branch]
-
----
-
-## 🌟 Featured Projects
-
-| Project Name                                    | Description                                                                             | Technologies           | Repo Link                      |
-|------------------------------------------------|-----------------------------------------------------------------------------------------|------------------------|---------------------------------|
-| **Innovative Control System For Racing Game Using Real Life Object Detection**                   | Innovative car control system using OpenCV with real-life objects                      | Python, OpenCV         | [GitHub](https://github.com/haveyoumetmiz/InnovativeControlSystemForRacingGameUsingRealLifeObjectDetection.git) |
-| **Student Book Exchange Hub**                  | Web app for college students to exchange books                                       | Django, HTML/CSS       | [GitHub](https://github.com/haveyoumetmiz/StudentBookExchangeHub.git) |
 
 ---
 
