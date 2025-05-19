@@ -12,12 +12,11 @@ I'm a **Computer Science Engineering Graduate** from **College of Engineering Po
 ---
 
 ### 🛠️ **What I'm Currently Working On:**
-- Currently working on integrating ABHA (Ayushman Bharat Health Account) into the PRX app by GHO
 
 ---
 
 ### Experience:
-- **C# Developer Intern at Global Health Opinions** (Mar 2024 - Present): Hybrid internship focusing on integrating abha on our healthcare app.
+- **C# Developer Intern at Global Health Opinions** (Mar 2025 - May 2025 ): Hybrid internship focusing on integrating abha on our healthcare app.
 - **Unity Developer Intern at PlatypusBox** (Nov 2024 - Feb 2025): Remote internship focusing on Unity development, cloud storage integration, and collaborative game development.
 - **Technology Lead at IEDC, CE Poonjar** (Oct 2023 - Feb 2025): Leading technical initiatives, mentoring students, and guiding projects that promote innovation and entrepreneurship at the college.
 
