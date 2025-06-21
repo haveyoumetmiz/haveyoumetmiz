@@ -16,6 +16,7 @@ I'm a **Computer Science Engineering Graduate** from **College of Engineering Po
 ---
 
 ### Experience:
+- **Graduate Trainee at Dbiz.ai** (May 2025 - Present ): Focusing on cloud storage and full scale development.
 - **C# Developer Intern at Global Health Opinions** (Mar 2025 - May 2025 ): Hybrid internship focusing on integrating abha on our healthcare app.
 - **Unity Developer Intern at PlatypusBox** (Nov 2024 - Feb 2025): Remote internship focusing on Unity development, cloud storage integration, and collaborative game development.
 - **Technology Lead at IEDC, CE Poonjar** (Oct 2023 - Feb 2025): Leading technical initiatives, mentoring students, and guiding projects that promote innovation and entrepreneurship at the college.
