@@ -1,4 +1,4 @@
-name: Generate Breakout SVG
+name: Generate Snake & Breakout SVGs
 
 on:
   # Run daily at midnight UTC
@@ -6,39 +6,63 @@ on:
     - cron: "0 0 * * *"
   # Allow manual trigger
   workflow_dispatch:
+  # Also trigger on pushes to main (but ignore bot commits)
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'images/**'
+      - 'dist/**'
 
 jobs:
-  generate-svg:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
 
     steps:
+      # Step 1: Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate breakout SVGs
+      # Step 2: Generate Snake Animations
+      - name: Generate Snake Animations
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 3: Generate Breakout SVGs
+      - name: Generate Breakout SVGs
         uses: cyprieng/github-breakout@v1.0.0
         with:
           github_username: ${{ github.repository_owner }}
 
-      - name: Move generated SVGs
+      # Step 4: Move Breakout SVGs
+      - name: Move breakout SVGs
         run: |
           mkdir -p images
           mv output/light.svg images/breakout-light.svg
           mv output/dark.svg images/breakout-dark.svg
 
+      # Step 5: Configure git
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push SVGs
+      # Step 6: Commit and push results
+      - name: Commit and push generated files
         run: |
-          git add images/breakout-light.svg images/breakout-dark.svg
+          git add dist/* images/*
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update breakout SVGs"
+            git commit -m "chore: update snake & breakout SVGs"
             git push
           else
             echo "No changes to commit"
