@@ -1,4 +1,4 @@
-<img src="banner_github.png" alt="GitHub Banner" width="100%" />
+<!--  <img src="banner_github.png" alt="GitHub Banner" width="100%" />-->
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&pause=1000&multiline=true&width=435&lines=Hi+there!;I+am+Mizhab+K+Ansar+)](https://git.io/typing-svg)
 
