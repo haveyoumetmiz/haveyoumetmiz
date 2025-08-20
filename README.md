@@ -79,7 +79,6 @@ _This README is a snapshot of my journey — let's build something amazing toget
   <img alt="GitHub Snake Game" src="images/github-snake.svg" />
 </picture>
 
-<img alt="GitHub Snake Ocean" src="images/ocean.gif" />
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="images/breakout-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="images/breakout-light.svg" />
