@@ -74,13 +74,15 @@ I'm a **Computer Science Engineering Graduate** from **College of Engineering Po
 _This README is a snapshot of my journey — let's build something amazing together! 🚀_
 
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="images/breakout-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="images/breakout-light.svg"
-  />
+  <source media="(prefers-color-scheme: dark)" srcset="images/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="images/github-snake.svg" />
+  <img alt="GitHub Snake Game" src="images/github-snake.svg" />
+</picture>
+
+<img alt="GitHub Snake Ocean" src="images/ocean.gif" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/breakout-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="images/breakout-light.svg" />
   <img alt="Breakout Game" src="images/breakout-light.svg" />
 </picture>
+
