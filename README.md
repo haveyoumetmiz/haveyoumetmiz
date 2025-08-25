@@ -49,12 +49,11 @@ I'm a **Computer Science Engineering Graduate** from **College of Engineering Po
 ---
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=haveyoumetmiz&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=haveyoumetmiz&theme=tokyonight&hide_border=true)<br/>
 
-![.](https://stats-svg-ibwz.vercel.app/api/github-status?username=haveyoumetmiz)
+![.](https://stats-svg-ibwz.vercel.app/api/github-status?username=haveyoumetmiz)<br/>
 ![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=haveyoumetmiz&theme=blue-green&hide_border=true&no-bg=true&no-frame=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=haveyoumetmiz&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=haveyoumetmiz&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact)<br/>
+
 --- 
 
 ### 🔝 Top Contributed Repo
